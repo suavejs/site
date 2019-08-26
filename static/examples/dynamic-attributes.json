@@ -1,0 +1,1 @@
+{"title":"Dynamic attributes","files":[{"name":"App.svelte","source":"<script>\n\tlet src = 'https://svelte.dev/tutorial/image.gif';\n\tlet name = 'Rick Astley';\n</script>\n\n<!-- {src} is short for src={src} -->\n<img {src} alt=\"{name} dancing\">"}]}

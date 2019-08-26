@@ -1,0 +1,25 @@
+[
+  {
+    "type": "Window",
+    "props": [
+      "handlers",
+      "bindings",
+      "actions"
+    ],
+    "valid_bindings": [
+      "innerWidth",
+      "innerHeight",
+      "outerWidth",
+      "outerHeight",
+      "scrollX",
+      "scrollY",
+      "online"
+    ]
+  },
+  {
+    "type": "Head",
+    "props":[
+      "children"
+    ]
+  }
+]

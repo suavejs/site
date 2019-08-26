@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Utils",
+    "bundles": [
+      { "slug": "unpkg-fetcher", "title": "Unpkg Fetcher" }
+    ]
+  },
+  {
+    "category": "Containers",
+    "bundles": [
+      { "slug": "basic-box", "title": "Basic Box" }
+    ]
+  },
+  {
+    "category": "Data",
+    "bundles": [
+      { "slug": "await-blocks", "title": "Await Blocks" }
+    ]
+  }
+]

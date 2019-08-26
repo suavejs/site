@@ -1,0 +1,577 @@
+[
+  {
+    "title": "Introduction",
+    "chapters": [
+      {
+        "slug": "basics",
+        "title": "Basics",
+        "section_dir": "01-introduction",
+        "chapter_dir": "01-basics"
+      },
+      {
+        "slug": "adding-data",
+        "title": "Adding data",
+        "section_dir": "01-introduction",
+        "chapter_dir": "02-adding-data"
+      },
+      {
+        "slug": "dynamic-attributes",
+        "title": "Dynamic attributes",
+        "section_dir": "01-introduction",
+        "chapter_dir": "03-dynamic-attributes"
+      },
+      {
+        "slug": "styling",
+        "title": "Styling",
+        "section_dir": "01-introduction",
+        "chapter_dir": "04-styling"
+      },
+      {
+        "slug": "nested-components",
+        "title": "Nested components",
+        "section_dir": "01-introduction",
+        "chapter_dir": "05-nested-components"
+      },
+      {
+        "slug": "html-tags",
+        "title": "HTML tags",
+        "section_dir": "01-introduction",
+        "chapter_dir": "06-html-tags"
+      },
+      {
+        "slug": "making-an-app",
+        "title": "Making an app",
+        "section_dir": "01-introduction",
+        "chapter_dir": "07-making-an-app"
+      }
+    ]
+  },
+  {
+    "title": "Reactivity",
+    "chapters": [
+      {
+        "slug": "reactive-assignments",
+        "title": "Assignments",
+        "section_dir": "02-reactivity",
+        "chapter_dir": "01-reactive-assignments"
+      },
+      {
+        "slug": "reactive-declarations",
+        "title": "Declarations",
+        "section_dir": "02-reactivity",
+        "chapter_dir": "02-reactive-declarations"
+      },
+      {
+        "slug": "reactive-statements",
+        "title": "Statements",
+        "section_dir": "02-reactivity",
+        "chapter_dir": "03-reactive-statements"
+      },
+      {
+        "slug": "updating-arrays-and-objects",
+        "title": "Updating arrays and objects",
+        "section_dir": "02-reactivity",
+        "chapter_dir": "04-updating-arrays-and-objects"
+      }
+    ]
+  },
+  {
+    "title": "Props",
+    "chapters": [
+      {
+        "slug": "declaring-props",
+        "title": "Declaring props",
+        "section_dir": "03-props",
+        "chapter_dir": "01-declaring-props"
+      },
+      {
+        "slug": "default-values",
+        "title": "Default values",
+        "section_dir": "03-props",
+        "chapter_dir": "02-default-values"
+      },
+      {
+        "slug": "spread-props",
+        "title": "Spread props",
+        "section_dir": "03-props",
+        "chapter_dir": "03-spread-props"
+      }
+    ]
+  },
+  {
+    "title": "Logic",
+    "chapters": [
+      {
+        "slug": "if-blocks",
+        "title": "If blocks",
+        "section_dir": "04-logic",
+        "chapter_dir": "01-if-blocks"
+      },
+      {
+        "slug": "else-blocks",
+        "title": "Else blocks",
+        "section_dir": "04-logic",
+        "chapter_dir": "02-else-blocks"
+      },
+      {
+        "slug": "else-if-blocks",
+        "title": "Else-if blocks",
+        "section_dir": "04-logic",
+        "chapter_dir": "03-else-if-blocks"
+      },
+      {
+        "slug": "each-blocks",
+        "title": "Each blocks",
+        "section_dir": "04-logic",
+        "chapter_dir": "04-each-blocks"
+      },
+      {
+        "slug": "keyed-each-blocks",
+        "title": "Keyed each blocks",
+        "section_dir": "04-logic",
+        "chapter_dir": "05-keyed-each-blocks"
+      },
+      {
+        "slug": "await-blocks",
+        "title": "Await blocks",
+        "section_dir": "04-logic",
+        "chapter_dir": "06-await-blocks"
+      }
+    ]
+  },
+  {
+    "title": "Events",
+    "chapters": [
+      {
+        "slug": "dom-events",
+        "title": "DOM events",
+        "section_dir": "05-events",
+        "chapter_dir": "01-dom-events"
+      },
+      {
+        "slug": "inline-handlers",
+        "title": "Inline handlers",
+        "section_dir": "05-events",
+        "chapter_dir": "02-inline-handlers"
+      },
+      {
+        "slug": "event-modifiers",
+        "title": "Event modifiers",
+        "section_dir": "05-events",
+        "chapter_dir": "03-event-modifiers"
+      },
+      {
+        "slug": "component-events",
+        "title": "Component events",
+        "section_dir": "05-events",
+        "chapter_dir": "04-component-events"
+      },
+      {
+        "slug": "event-forwarding",
+        "title": "Event forwarding",
+        "section_dir": "05-events",
+        "chapter_dir": "05-event-forwarding"
+      },
+      {
+        "slug": "dom-event-forwarding",
+        "title": "DOM event forwarding",
+        "section_dir": "05-events",
+        "chapter_dir": "06-dom-event-forwarding"
+      }
+    ]
+  },
+  {
+    "title": "Bindings",
+    "chapters": [
+      {
+        "slug": "text-inputs",
+        "title": "Text inputs",
+        "section_dir": "06-bindings",
+        "chapter_dir": "01-text-inputs"
+      },
+      {
+        "slug": "numeric-inputs",
+        "title": "Numeric inputs",
+        "section_dir": "06-bindings",
+        "chapter_dir": "02-numeric-inputs"
+      },
+      {
+        "slug": "checkbox-inputs",
+        "title": "Checkbox inputs",
+        "section_dir": "06-bindings",
+        "chapter_dir": "03-checkbox-inputs"
+      },
+      {
+        "slug": "group-inputs",
+        "title": "Group inputs",
+        "section_dir": "06-bindings",
+        "chapter_dir": "04-group-inputs"
+      },
+      {
+        "slug": "textarea-inputs",
+        "title": "Textarea inputs",
+        "section_dir": "06-bindings",
+        "chapter_dir": "05-textarea-inputs"
+      },
+      {
+        "slug": "select-bindings",
+        "title": "Select bindings",
+        "section_dir": "06-bindings",
+        "chapter_dir": "06-select-bindings"
+      },
+      {
+        "slug": "multiple-select-bindings",
+        "title": "Select multiple",
+        "section_dir": "06-bindings",
+        "chapter_dir": "07-multiple-select-bindings"
+      },
+      {
+        "slug": "contenteditable-bindings",
+        "title": "Contenteditable bindings",
+        "section_dir": "06-bindings",
+        "chapter_dir": "08-contenteditable-bindings"
+      },
+      {
+        "slug": "each-block-bindings",
+        "title": "Each block bindings",
+        "section_dir": "06-bindings",
+        "chapter_dir": "09-each-block-bindings"
+      },
+      {
+        "slug": "media-elements",
+        "title": "Media elements",
+        "section_dir": "06-bindings",
+        "chapter_dir": "10-media-elements"
+      },
+      {
+        "slug": "dimensions",
+        "title": "Dimensions",
+        "section_dir": "06-bindings",
+        "chapter_dir": "11-dimensions"
+      },
+      {
+        "slug": "bind-this",
+        "title": "This",
+        "section_dir": "06-bindings",
+        "chapter_dir": "12-bind-this"
+      },
+      {
+        "slug": "component-bindings",
+        "title": "Component bindings",
+        "section_dir": "06-bindings",
+        "chapter_dir": "13-component-bindings"
+      }
+    ]
+  },
+  {
+    "title": "Lifecycle",
+    "chapters": [
+      {
+        "slug": "onmount",
+        "title": "onMount",
+        "section_dir": "07-lifecycle",
+        "chapter_dir": "01-onmount"
+      },
+      {
+        "slug": "ondestroy",
+        "title": "onDestroy",
+        "section_dir": "07-lifecycle",
+        "chapter_dir": "02-ondestroy"
+      },
+      {
+        "slug": "update",
+        "title": "beforeUpdate and afterUpdate",
+        "section_dir": "07-lifecycle",
+        "chapter_dir": "03-update"
+      },
+      {
+        "slug": "tick",
+        "title": "tick",
+        "section_dir": "07-lifecycle",
+        "chapter_dir": "04-tick"
+      }
+    ]
+  },
+  {
+    "title": "Stores",
+    "chapters": [
+      {
+        "slug": "writable-stores",
+        "title": "Writable stores",
+        "section_dir": "08-stores",
+        "chapter_dir": "01-writable-stores"
+      },
+      {
+        "slug": "auto-subscriptions",
+        "title": "Auto-subscriptions",
+        "section_dir": "08-stores",
+        "chapter_dir": "02-auto-subscriptions"
+      },
+      {
+        "slug": "readable-stores",
+        "title": "Readable stores",
+        "section_dir": "08-stores",
+        "chapter_dir": "03-readable-stores"
+      },
+      {
+        "slug": "derived-stores",
+        "title": "Derived stores",
+        "section_dir": "08-stores",
+        "chapter_dir": "04-derived-stores"
+      },
+      {
+        "slug": "custom-stores",
+        "title": "Custom stores",
+        "section_dir": "08-stores",
+        "chapter_dir": "05-custom-stores"
+      },
+      {
+        "slug": "store-bindings",
+        "title": "Store bindings",
+        "section_dir": "08-stores",
+        "chapter_dir": "06-store-bindings"
+      }
+    ]
+  },
+  {
+    "title": "Motion",
+    "chapters": [
+      {
+        "slug": "tweened",
+        "title": "Tweened",
+        "section_dir": "09-motion",
+        "chapter_dir": "01-tweened"
+      },
+      {
+        "slug": "spring",
+        "title": "Spring",
+        "section_dir": "09-motion",
+        "chapter_dir": "02-spring"
+      }
+    ]
+  },
+  {
+    "title": "Transitions",
+    "chapters": [
+      {
+        "slug": "transition",
+        "title": "The transition directive",
+        "section_dir": "10-transitions",
+        "chapter_dir": "01-transition"
+      },
+      {
+        "slug": "adding-parameters-to-transitions",
+        "title": "Adding parameters",
+        "section_dir": "10-transitions",
+        "chapter_dir": "02-adding-parameters-to-transitions"
+      },
+      {
+        "slug": "in-and-out",
+        "title": "In and out",
+        "section_dir": "10-transitions",
+        "chapter_dir": "03-in-and-out"
+      },
+      {
+        "slug": "custom-css-transitions",
+        "title": "Custom CSS transitions",
+        "section_dir": "10-transitions",
+        "chapter_dir": "04-custom-css-transitions"
+      },
+      {
+        "slug": "custom-js-transitions",
+        "title": "Custom JS transitions",
+        "section_dir": "10-transitions",
+        "chapter_dir": "05-custom-js-transitions"
+      },
+      {
+        "slug": "transition-events",
+        "title": "Transition events",
+        "section_dir": "10-transitions",
+        "chapter_dir": "06-transition-events"
+      },
+      {
+        "slug": "local-transitions",
+        "title": "Local transitions",
+        "section_dir": "10-transitions",
+        "chapter_dir": "07-local-transitions"
+      },
+      {
+        "slug": "deferred-transitions",
+        "title": "Deferred transitions",
+        "section_dir": "10-transitions",
+        "chapter_dir": "08-deferred-transitions"
+      }
+    ]
+  },
+  {
+    "title": "Animations",
+    "chapters": [
+      {
+        "slug": "animate",
+        "title": "The animate directive",
+        "section_dir": "11-animations",
+        "chapter_dir": "01-animate"
+      }
+    ]
+  },
+  {
+    "title": "Actions",
+    "chapters": [
+      {
+        "slug": "actions",
+        "title": "The use directive",
+        "section_dir": "12-actions",
+        "chapter_dir": "01-actions"
+      },
+      {
+        "slug": "adding-parameters-to-actions",
+        "title": "Adding parameters",
+        "section_dir": "12-actions",
+        "chapter_dir": "02-adding-parameters-to-actions"
+      }
+    ]
+  },
+  {
+    "title": "Classes",
+    "chapters": [
+      {
+        "slug": "classes",
+        "title": "The class directive",
+        "section_dir": "13-classes",
+        "chapter_dir": "01-classes"
+      },
+      {
+        "slug": "class-shorthand",
+        "title": "Shorthand class directive",
+        "section_dir": "13-classes",
+        "chapter_dir": "02-class-shorthand"
+      }
+    ]
+  },
+  {
+    "title": "Component composition",
+    "chapters": [
+      {
+        "slug": "slots",
+        "title": "Slots",
+        "section_dir": "14-composition",
+        "chapter_dir": "01-slots"
+      },
+      {
+        "slug": "slot-fallbacks",
+        "title": "Slot fallbacks",
+        "section_dir": "14-composition",
+        "chapter_dir": "02-slot-fallbacks"
+      },
+      {
+        "slug": "named-slots",
+        "title": "Named slots",
+        "section_dir": "14-composition",
+        "chapter_dir": "03-named-slots"
+      },
+      {
+        "slug": "slot-props",
+        "title": "Slot props",
+        "section_dir": "14-composition",
+        "chapter_dir": "04-slot-props"
+      }
+    ]
+  },
+  {
+    "title": "Context API",
+    "chapters": [
+      {
+        "slug": "context-api",
+        "title": "setContext and getContext",
+        "section_dir": "15-context",
+        "chapter_dir": "01-context-api"
+      }
+    ]
+  },
+  {
+    "title": "Special elements",
+    "chapters": [
+      {
+        "slug": "svelte-self",
+        "title": "<svelte:self>",
+        "section_dir": "16-special-elements",
+        "chapter_dir": "01-svelte-self"
+      },
+      {
+        "slug": "svelte-component",
+        "title": "<svelte:component>",
+        "section_dir": "16-special-elements",
+        "chapter_dir": "02-svelte-component"
+      },
+      {
+        "slug": "svelte-window",
+        "title": "<svelte:window>",
+        "section_dir": "16-special-elements",
+        "chapter_dir": "03-svelte-window"
+      },
+      {
+        "slug": "svelte-window-bindings",
+        "title": "<svelte:window> bindings",
+        "section_dir": "16-special-elements",
+        "chapter_dir": "04-svelte-window-bindings"
+      },
+      {
+        "slug": "svelte-body",
+        "title": "<svelte:body>",
+        "section_dir": "16-special-elements",
+        "chapter_dir": "05-svelte-body"
+      },
+      {
+        "slug": "svelte-head",
+        "title": "<svelte:head>",
+        "section_dir": "16-special-elements",
+        "chapter_dir": "06-svelte-head"
+      },
+      {
+        "slug": "svelte-options",
+        "title": "<svelte:options>",
+        "section_dir": "16-special-elements",
+        "chapter_dir": "07-svelte-options"
+      }
+    ]
+  },
+  {
+    "title": "Module context",
+    "chapters": [
+      {
+        "slug": "sharing-code",
+        "title": "Sharing code",
+        "section_dir": "17-module-context",
+        "chapter_dir": "01-sharing-code"
+      },
+      {
+        "slug": "module-exports",
+        "title": "Exports",
+        "section_dir": "17-module-context",
+        "chapter_dir": "02-module-exports"
+      }
+    ]
+  },
+  {
+    "title": "Debugging",
+    "chapters": [
+      {
+        "slug": "debug",
+        "title": "The @debug tag",
+        "section_dir": "18-debugging",
+        "chapter_dir": "01-debug"
+      }
+    ]
+  },
+  {
+    "title": "Next steps",
+    "chapters": [
+      {
+        "slug": "congratulations",
+        "title": "Congratulations!",
+        "section_dir": "19-next-steps",
+        "chapter_dir": "01-congratulations"
+      }
+    ]
+  }
+]

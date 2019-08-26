@@ -1,0 +1,8 @@
+.DS_Store
+/node_modules/
+/src/node_modules/@sapper/
+yarn-error.log
+/cypress/screenshots/
+/__sapper__/
+.env
+svelte-playground-firebase-adminsdk-9ndh4-98195e2eed.json

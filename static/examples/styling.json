@@ -1,0 +1,1 @@
+{"title":"Styling","files":[{"name":"App.svelte","source":"<style>\n\tp {\n\t\tcolor: purple;\n\t\tfont-family: 'Comic Sans MS';\n\t\tfont-size: 2em;\n\t}\n</style>\n\n<p>Styled!</p>"}]}

@@ -1,0 +1,1 @@
+{"title":"Text inputs","files":[{"name":"App.svelte","source":"<script>\n\tlet name = '';\n</script>\n\n<input bind:value={name} placeholder=\"enter your name\">\n<p>Hello {name || 'stranger'}!</p>"}]}

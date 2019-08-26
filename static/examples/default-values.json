@@ -1,0 +1,13 @@
+{
+  "title": "Default Values",
+  "files": [
+    {
+      "name": "App.svelte",
+      "source": "<script>\nimport Nested from './Nested.svelte';\n</script>\n\n<Nested answer={42}/>\n<Nested/>"
+    },
+    {
+      "name": "Nested.svelte",
+      "source": "<script>\nexport let answer = 'a mystery';\n</script>\n\n<p>The answer is {answer}</p>"
+    }
+  ]
+}

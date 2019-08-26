@@ -1,0 +1,17 @@
+{
+  "title": "<svelte:self>",
+  "files": [
+    {
+      "name": "App.svelte",
+      "source": "<script>\n\timport Folder from './Folder.svelte';\n\n\tlet root = [\n\t\t{\n\t\t\ttype: 'folder',\n\t\t\tname: 'Important work stuff',\n\t\t\tfiles: [\n\t\t\t\t{ type: 'file', name: 'quarterly-results.xlsx' }\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\ttype: 'folder',\n\t\t\tname: 'Animal GIFs',\n\t\t\tfiles: [\n\t\t\t\t{\n\t\t\t\t\ttype: 'folder',\n\t\t\t\t\tname: 'Dogs',\n\t\t\t\t\tfiles: [\n\t\t\t\t\t\t{ type: 'file', name: 'treadmill.gif' },\n\t\t\t\t\t\t{ type: 'file', name: 'rope-jumping.gif' }\n\t\t\t\t\t]\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\ttype: 'folder',\n\t\t\t\t\tname: 'Goats',\n\t\t\t\t\tfiles: [\n\t\t\t\t\t\t{ type: 'file', name: 'parkour.gif' },\n\t\t\t\t\t\t{ type: 'file', name: 'rampage.gif' }\n\t\t\t\t\t]\n\t\t\t\t},\n\t\t\t\t{ type: 'file', name: 'cat-roomba.gif' },\n\t\t\t\t{ type: 'file', name: 'duck-shuffle.gif' },\n\t\t\t\t{ type: 'file', name: 'monkey-on-a-pig.gif' }\n\t\t\t]\n\t\t},\n\t\t{ type: 'file', name: 'TODO.md' }\n\t];\n</script>\n\n<Folder name=\"Home\" files={root} expanded/>"
+    },
+    {
+      "name": "File.svelte",
+      "source": "<script>\n\texport let name;\n\t$: type = name.slice(name.lastIndexOf('.') + 1);\n</script>\n\n<style>\n\tspan {\n\t\tpadding: 0 0 0 1.5em;\n\t\tbackground: 0 0.1em no-repeat;\n\t\tbackground-size: 1em 1em;\n\t}\n</style>\n\n<span style=\"background-image: url(https://svelte.dev/tutorial/icons/{type}.svg)\">{name}</span>"
+    },
+    {
+      "name": "Folder.svelte",
+      "source": "<script>\n\timport File from './File.svelte';\n\n\texport let expanded = false;\n\texport let name;\n\texport let files;\n\n\tfunction toggle() {\n\t\texpanded = !expanded;\n\t}\n</script>\n\n<style>\n\tspan {\n\t\tpadding: 0 0 0 1.5em;\n\t\tbackground: url(https://svelte.dev/tutorial/icons/folder.svg) 0 0.1em no-repeat;\n\t\tbackground-size: 1em 1em;\n\t\tfont-weight: bold;\n\t\tcursor: pointer;\n\t}\n\n\t.expanded {\n\t\tbackground-image: url(https://svelte.dev/tutorial/icons/folder-open.svg);\n\t}\n\n\tul {\n\t\tpadding: 0.2em 0 0 0.5em;\n\t\tmargin: 0 0 0 0.5em;\n\t\tlist-style: none;\n\t\tborder-left: 1px solid #eee;\n\t}\n\n\tli {\n\t\tpadding: 0.2em 0;\n\t}\n</style>\n\n<span class:expanded on:click={toggle}>{name}</span>\n\n{#if expanded}\n\t<ul>\n\t\t{#each files as file}\n\t\t\t<li>\n\t\t\t\t{#if file.type === 'folder'}\n\t\t\t\t\t<svelte:self {...file}/>\n\t\t\t\t{:else}\n\t\t\t\t\t<File {...file}/>\n\t\t\t\t{/if}\n\t\t\t</li>\n\t\t{/each}\n\t</ul>\n{/if}"
+    }
+  ]
+}

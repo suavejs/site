@@ -1,0 +1,9 @@
+{
+  "title": "Else If Blocks",
+  "files": [
+    {
+      "name": "App.svelte",
+      "source": "<script>\n\tlet x = 7;\n</script>\n\n{#if x > 10}\n\t<p>{x} is greater than 10</p>\n{:else if 5 > x}\n\t<p>{x} is less than 5</p>\n{:else}\n\t<p>{x} is between 5 and 10</p>\n{/if}"
+    }
+  ]
+}
