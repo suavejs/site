@@ -1,0 +1,13 @@
+{
+  "title": "Spread Props",
+  "files": [
+    {
+      "name": "App.svelte",
+      "source": "<script>\nimport Info from './Info.svelte';\n\nconst pkg = {\n\tname: 'svelte',\n\tversion: 3,\n\tspeed: 'blazing',\n\twebsite: 'https://svelte.dev'\n};\n</script>\n\n<Info {...pkg}/>"
+    },
+    {
+      "name": "Info.svelte",
+      "source": "<script>\nexport let name;\nexport let version;\nexport let speed;\nexport let website;\n</script>\n\n<p>\n\tThe <code>{name}</code> package is {speed} fast.\n\tDownload version {version} from <a href='https://www.npmjs.com/package/{name}'>npm</a>\n\tand <a href={website}>learn more here</a>\n</p>"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"title":"The @debug tag","files":[{"name":"App.svelte","source":"<script>\n\tlet user = {\n\t\tfirstname: 'Ada',\n\t\tlastname: 'Lovelace'\n\t};\n</script>\n\n<input bind:value={user.firstname}>\n<input bind:value={user.lastname}>\n\n{@debug user}\n\n<h1>Hello {user.firstname}!</h1>"}]}

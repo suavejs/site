@@ -1,0 +1,9 @@
+{
+  "title": "If Blocks",
+  "files": [
+    {
+      "name": "App.svelte",
+      "source": "<script>\n\tlet user = { loggedIn: false };\n\n\tfunction toggle() {\n\t\tuser.loggedIn = !user.loggedIn;\n\t}\n</script>\n\n{#if user.loggedIn}\n\t<button on:click={toggle}>\n\t\tLog out\n\t</button>\n{:else}\n\t<button on:click={toggle}>\n\t\tLog in\n\t</button>\n{/if}"
+    }
+  ]
+}

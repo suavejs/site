@@ -1,0 +1,1 @@
+{"title":"Shorthand class directive","files":[{"name":"App.svelte","source":"<script>\n\tlet big = false;\n</script>\n\n<style>\n\t.big {\n\t\tfont-size: 4em;\n\t}\n</style>\n\n<label>\n\t<input type=checkbox bind:checked={big}>\n\tbig\n</label>\n\n<div class:big>\n\tsome {big ? 'big' : 'small'} text\n</div>"}]}

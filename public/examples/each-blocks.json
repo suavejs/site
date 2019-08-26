@@ -1,0 +1,9 @@
+{
+  "title": "Each blocks",
+  "files": [
+    {
+      "name": "App.svelte",
+      "source": "<script>\n\tlet cats = [\n\t\t{ id: 'J---aiyznGQ', name: 'Keyboard Cat' },\n\t\t{ id: 'z_AbfPXTKms', name: 'Maru' },\n\t\t{ id: 'OUtn3pvWmpg', name: 'Henri The Existential Cat' }\n\t];\n</script>\n\n<h1>The Famous Cats of YouTube</h1>\n\n<ul>\n\t{#each cats as { id, name }, i}\n\t\t<li><a target=\"_blank\" href=\"https://www.youtube.com/watch?v={id}\">\n\t\t\t{i + 1}: {name}\n\t\t</a></li>\n\t{/each}\n</ul>"
+    }
+  ]
+}

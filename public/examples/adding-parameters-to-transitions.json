@@ -1,0 +1,1 @@
+{"title":"Adding parameters","files":[{"name":"App.svelte","source":"<script>\n\timport { fly } from 'svelte/transition';\n\tlet visible = true;\n</script>\n\n<label>\n\t<input type=\"checkbox\" bind:checked={visible}>\n\tvisible\n</label>\n\n{#if visible}\n\t<p transition:fly=\"{{ y: 200, duration: 2000 }}\">\n\t\tFlies in and out\n\t</p>\n{/if}"}]}

@@ -1,0 +1,1 @@
+{"title":"In and out","files":[{"name":"App.svelte","source":"<script>\n\timport { fade, fly } from 'svelte/transition';\n\tlet visible = true;\n</script>\n\n<label>\n\t<input type=\"checkbox\" bind:checked={visible}>\n\tvisible\n</label>\n\n{#if visible}\n\t<p in:fly=\"{{ y: 200, duration: 2000 }}\" out:fade>\n\t\tFlies in, fades out\n\t</p>\n{/if}"}]}

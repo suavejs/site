@@ -1,0 +1,1 @@
+{"title":"Event modifiers","files":[{"name":"App.svelte","source":"<script>\n\tfunction handleClick() {\n\t\talert('no more alerts')\n\t}\n</script>\n\n<button on:click|once={handleClick}>\n\tClick me\n</button>"}]}

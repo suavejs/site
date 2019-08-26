@@ -1,0 +1,1 @@
+{"title":"Counter","files":[{"name":"App.svelte","source":"<script>\n\tlet count = 0;\n</script>\n\n<!-- https://github.com/eugenkiss/7guis/wiki#counter -->\n<input type=number bind:value={count}>\n<button on:click=\"{() => count += 1}\">count</button>"}]}

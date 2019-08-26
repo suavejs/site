@@ -1,0 +1,1 @@
+{"title":"HTML tags","files":[{"name":"App.svelte","source":"<script>\n\tlet string = `here's some <strong>HTML!!!</strong>`;\n</script>\n\n<p>{@html string}</p>"}]}

@@ -1,0 +1,1 @@
+{"title":"<svelte:head>","files":[{"name":"App.svelte","source":"<svelte:head>\n\t<link rel=\"stylesheet\" href=\"https://svelte.dev/tutorial/dark-theme.css\">\n</svelte:head>\n\n<h1>Hello world!</h1>"}]}

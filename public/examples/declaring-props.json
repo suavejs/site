@@ -1,0 +1,13 @@
+{
+  "title": "Declaring Props",
+  "files": [
+    {
+      "name": "App.svelte",
+      "source": "<script>\nimport Nested from './Nested.svelte';\n</script>\n\n<Nested answer={42}/>"
+    },
+    {
+      "name": "Nested.svelte",
+      "source": "<script>\nexport let answer;\n</script>\n\n<p>The answer is {answer}</p>"
+    }
+  ]
+}

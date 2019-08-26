@@ -1,0 +1,1 @@
+{"title":"DOM events","files":[{"name":"App.svelte","source":"<script>\n\tlet m = { x: 0, y: 0 };\n\n\tfunction handleMousemove(event) {\n\t\tm.x = event.clientX;\n\t\tm.y = event.clientY;\n\t}\n</script>\n\n<style>\n\tdiv { width: 100%; height: 100%; }\n</style>\n\n<div on:mousemove={handleMousemove}>\n\tThe mouse position is {m.x} x {m.y}\n</div>"}]}

@@ -1,0 +1,1 @@
+{"title":"Reactive assignments","files":[{"name":"App.svelte","source":"<script>\n\tlet count = 0;\n\n\tfunction handleClick() {\n\t\tcount += 1;\n\t}\n</script>\n\n<button on:click={handleClick}>\n\tClicked {count} {count === 1 ? 'time' : 'times'}\n</button>"}]}

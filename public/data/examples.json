@@ -1,0 +1,192 @@
+[
+  {
+    "title": "Introduction",
+    "bundles": [
+      { "slug": "hello-world", "title": "Hello world" },
+      { "slug": "dynamic-attributes", "title": "Dynamic attributes" },
+      { "slug": "styling", "title": "Styling" },
+      { "slug": "nested-components", "title": "Nested components" },
+      { "slug": "html-tags", "title": "HTML tags" }
+    ]
+  },
+  {
+    "title": "Reactivity",
+    "bundles": [
+      { "slug": "reactive-assignments", "title": "Reactive assignments" },
+      { "slug": "reactive-declarations", "title": "Reactive declarations" },
+      { "slug": "reactive-statements", "title": "Reactive statements" }
+    ]
+  },
+  {
+    "title": "Props",
+    "bundles": [
+      { "slug": "declaring-props", "title": "Declaring props" },
+      { "slug": "default-values", "title": "Default values" },
+      { "slug": "spread-props", "title": "Spread props" }
+    ]
+  },
+  {
+    "title": "Logic",
+    "bundles": [
+      { "slug": "if-blocks", "title": "If blocks" },
+      { "slug": "else-blocks", "title": "Else blocks" },
+      { "slug": "else-if-blocks", "title": "Else-if blocks" },
+      { "slug": "each-blocks", "title": "Each blocks" },
+      { "slug": "keyed-each-blocks", "title": "Keyed each blocks" },
+      { "slug": "await-blocks", "title": "Await blocks" }
+    ]
+  },
+  {
+    "title": "Events",
+    "bundles": [
+      { "slug": "dom-events", "title": "DOM events" },
+      { "slug": "inline-handlers", "title": "Inline handlers" },
+      { "slug": "event-modifiers", "title": "Event modifiers" },
+      { "slug": "component-events", "title": "Component events" },
+      { "slug": "event-forwarding", "title": "Event forwarding" },
+      { "slug": "dom-event-forwarding", "title": "DOM event forwarding" }
+    ]
+  },
+  {
+    "title": "Bindings",
+    "bundles": [
+      { "slug": "text-inputs", "title": "Text inputs" },
+      { "slug": "numeric-inputs", "title": "Numeric inputs" },
+      { "slug": "checkbox-inputs", "title": "Checkbox inputs" },
+      { "slug": "group-inputs", "title": "Group inputs" },
+      { "slug": "textarea-inputs", "title": "Textarea inputs" },
+      { "slug": "select-bindings", "title": "Select bindings" },
+      { "slug": "multiple-select-bindings", "title": "Select multiple" },
+      { "slug": "each-block-bindings", "title": "Each block bindings" },
+      { "slug": "media-elements", "title": "Media elements" },
+      { "slug": "dimensions", "title": "Dimensions" },
+      { "slug": "bind-this", "title": "bind:this={canvas}" },
+      { "slug": "component-bindings", "title": "Component bindings" }
+    ]
+  },
+  {
+    "title": "Lifecycle",
+    "bundles": [
+      { "slug": "onmount", "title": "onMount" },
+      { "slug": "ondestroy", "title": "onDestroy" },
+      { "slug": "update", "title": "beforeUpdate and afterUpdate" },
+      { "slug": "tick", "title": "tick" }
+    ]
+  },
+  {
+    "title": "Stores",
+    "bundles": [
+      { "slug": "writable-stores", "title": "Writable stores" },
+      { "slug": "auto-subscriptions", "title": "Auto-subscriptions" },
+      { "slug": "readable-stores", "title": "Readable stores" },
+      { "slug": "derived-stores", "title": "Derived stores" },
+      { "slug": "custom-stores", "title": "Custom stores" }
+    ]
+  },
+  {
+    "title": "Motion",
+    "bundles": [
+      { "slug": "tweened", "title": "Tweened" },
+      { "slug": "spring", "title": "Spring" }
+    ]
+  },
+  {
+    "title": "Transitions",
+    "bundles": [
+      { "slug": "transition", "title": "The transition directive" },
+      {
+        "slug": "adding-parameters-to-transitions",
+        "title": "Adding parameters"
+      },
+      { "slug": "in-and-out", "title": "In and out" },
+      { "slug": "custom-css-transitions", "title": "Custom CSS transitions" },
+      { "slug": "custom-js-transitions", "title": "Custom JS transitions" },
+      { "slug": "transition-events", "title": "Transition events" },
+      { "slug": "deferred-transitions", "title": "Deferred transitions" }
+    ]
+  },
+  {
+    "title": "Animations",
+    "bundles": [{ "slug": "animate", "title": "The animate directive" }]
+  },
+  {
+    "title": "SVG",
+    "bundles": [
+      { "slug": "clock", "title": "Clock" },
+      { "slug": "bar-chart", "title": "Bar chart" },
+      { "slug": "area-chart", "title": "Area chart" },
+      { "slug": "scatterplot", "title": "Scatterplot" },
+      { "slug": "svg-transitions", "title": "SVG transitions" }
+    ]
+  },
+  {
+    "title": "Actions",
+    "bundles": [
+      { "slug": "actions", "title": "The use directive" },
+      { "slug": "adding-parameters-to-actions", "title": "Adding parameters" }
+    ]
+  },
+  {
+    "title": "Classes",
+    "bundles": [
+      { "slug": "classes", "title": "The class directive" },
+      { "slug": "class-shorthand", "title": "Shorthand class directive" }
+    ]
+  },
+  {
+    "title": "Component composition",
+    "bundles": [
+      { "slug": "slots", "title": "Slots" },
+      { "slug": "slot-fallbacks", "title": "Slot fallbacks" },
+      { "slug": "named-slots", "title": "Named slots" },
+      { "slug": "slot-props", "title": "Slot props" },
+      { "slug": "modal", "title": "Modal" }
+    ]
+  },
+  {
+    "title": "Context API",
+    "bundles": [
+      { "slug": "context-api", "title": "setContext and getContext" }
+    ]
+  },
+  {
+    "title": "Special elements",
+    "bundles": [
+      { "slug": "svelte-self", "title": "<svelte:self>" },
+      { "slug": "svelte-component", "title": "<svelte:component>" },
+      { "slug": "svelte-window", "title": "<svelte:window>" },
+      {
+        "slug": "svelte-window-bindings",
+        "title": "<svelte:window> bindings"
+      },
+      { "slug": "svelte-body", "title": "<svelte:body>" },
+      { "slug": "svelte-head", "title": "<svelte:head>" }
+    ]
+  },
+  {
+    "title": "Module context",
+    "bundles": [{ "slug": "module-exports", "title": "Named exports" }]
+  },
+  {
+    "title": "Debugging",
+    "bundles": [{ "slug": "debug", "title": "The @debug tag" }]
+  },
+  {
+    "title": "7GUIs",
+    "bundles": [
+      { "slug": "7guis-counter", "title": "Counter" },
+      { "slug": "7guis-temperature", "title": "Temperature Converter" },
+      { "slug": "7guis-flight-booker", "title": "Flight booker" },
+      { "slug": "7guis-timer", "title": "Timer" },
+      { "slug": "7guis-crud", "title": "CRUD" },
+      { "slug": "7guis-circles", "title": "Circle Drawer" }
+    ]
+  },
+  {
+    "title": "Miscellaneous",
+    "bundles": [
+      { "slug": "hacker-news", "title": "Hacker News" },
+      { "slug": "immutable-data", "title": "Immutable data" }
+    ]
+  }
+]
