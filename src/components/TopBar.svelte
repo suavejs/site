@@ -5,15 +5,15 @@
 	<div class="mdc-top-app-bar__row">
 		
 		<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-			<IconButton name="menu" on:click={toggleDrawer} classes="mdc-top-app-bar__navigation-icon--unbounded"/>
-			<IconButton name="minimize" on:click={toggleMini} classes="mdc-top-app-bar__navigation-icon--unbounded"/>
+			<IconButton icon="menu" iconOn="menu" on:click={toggleDrawer} classes="mdc-top-app-bar__navigation-icon--unbounded"/>
+			<IconButton icon="minimize" iconOn="minimize" on:click={toggleMini} classes="mdc-top-app-bar__navigation-icon--unbounded"/>
 			<span class="font-mono mdc-top-app-bar__title"><a href=".">suavejs</a></span> 
 		</section>
 
 		<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
-			<IconButton name='bookmark' label='Download' classes='mdc-top-app-bar__action-item--unbounded' />
-			<IconButton name="star" label="add to favorites" classes='mdc-top-app-bar__action-item--unbounded'/>
-			<IconButton name="more_vert" label="show more options" classes='mdc-top-app-bar__action-item--unbounded'/>
+			<IconButton icon='bookmark' iconOn="bookmark" label='Download' classes='mdc-top-app-bar__action-item--unbounded' />
+			<IconButton icon="star" iconOn="star" label="add to favorites" classes='mdc-top-app-bar__action-item--unbounded'/>
+			<IconButton icon="more_vert" iconOn="more_vert" label="show more options" classes='mdc-top-app-bar__action-item--unbounded'/>
 		</section>
 	</div>
 </header>

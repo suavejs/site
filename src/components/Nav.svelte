@@ -3,7 +3,7 @@
 	import { tweened } from 'svelte/motion';
 	import { cubicOut } from 'svelte/easing';
 
-	export const width = tweened(60, {
+	export const width = tweened(80, {
 		duration: 500,
 		easing: cubicOut
 	});
@@ -28,7 +28,7 @@
 			: headerHeight.set(60)
 
 	export let hideWidth = 0;
-	export let miniWidth = 60;
+	export let miniWidth = 80;
 	export let fullWidth = 200;
 </script>
 
@@ -44,35 +44,34 @@
 		<div transition:fly="{{ x: -100, duration: 400 }}" class="mdc-drawer__content">
 			<nav  class="mdc-list">
 					<a class="mdc-list-item {segment === 'account' ? `mdc-list-item--activated` : ``}" href='account' aria-current="page">
-						<IconButton name="account_circle" classes="mdc-list-item__graphic"/>
+						<IconButton icon="account_circle" iconOn="account_circle" classes="{mini ? `` : `mdc-list-item__graphic` }"/>
 						{#if !mini}<span class="mdc-list-item__text">account</span>{/if}
 					</a>
 					
 					<a class="mdc-list-item {segment === undefined ? `mdc-list-item--activated` : ``}" href='.' aria-current="page">
-						<IconButton name="home" classes="mdc-list-item__graphic"/>
+						<IconButton icon="home" iconOn="home" classes="{mini ? `` : `mdc-list-item__graphic` }"/>
 						{#if !mini}<span class="mdc-list-item__text">home</span>{/if}
 					</a>
 
 					<a class="mdc-list-item {segment === "about" ? `mdc-list-item--activated` : ``}" href='about'>
-						<IconButton name="help" classes="mdc-list-item__graphic"/>
+						<IconButton icon="help" iconOn="help" classes="mdc-list-item__graphic"/>
 						{#if !mini}<span class="mdc-list-item__text">about</span>{/if}
 					</a>
 
 					<a rel=prefetch class="mdc-list-item {segment === "blog" ? `mdc-list-item--activated` : ``}" href='blog'>
-						<IconButton name="book" classes="mdc-list-item__graphic"/>
+						<IconButton icon="book" iconOn="book" classes="mdc-list-item__graphic"/>
 						{#if !mini}<span class="mdc-list-item__text">blog</span>{/if}
 					</a>
 
 					<a class="mdc-list-item {segment === "playground" ? `mdc-list-item--activated` : ``}" href='playground'>
-						<IconButton name="code" classes="mdc-list-item__graphic"/>
+						<IconButton icon="code" iconOn="code" classes="mdc-list-item__graphic"/>
 						{#if !mini}<span class="mdc-list-item__text">playground</span>{/if}
 					</a>
 
 					<a class="mdc-list-item {segment === "components" ? `mdc-list-item--activated` : ``}" href='components'>
-							<IconButton name="beach_access" classes="mdc-list-item__graphic"/>
-							{#if !mini}<span class="mdc-list-item__text">playground</span>{/if}
-						</a>
-
+						<IconButton icon="beach_access" iconOn="beach_access" classes="mdc-list-item__graphic"/>
+						{#if !mini}<span class="mdc-list-item__text">playground</span>{/if}
+					</a>
 				</nav>
 		</div>
 	{/if}

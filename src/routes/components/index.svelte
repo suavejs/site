@@ -4,12 +4,14 @@
   let repl;
 </script>
 
-<div>
+<a href="components/buttons">Buttons</a>
+
+<!-- <div>
 <section>
   <Tree/>
 </section>  
 <ReplWidget bind:this={repl} style="background: var(--mdc-theme-background)"/>
-</div>
+</div> -->
 
 <style>
   section{
@@ -24,14 +26,3 @@ div {
   height: 100%;
 }
 </style>
-<!-- <SplitPane type="horizontal" pos="10">
-
-  <section slot=a  class="elevation-z-2" style="grid-area: tree; padding: 8px;">
-    <Tree/>
-  </section>
-  
-  <div slot="b" height="100%">
-    <ReplWidget/>
-  </div>
-
-</SplitPane> -->
