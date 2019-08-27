@@ -1,19 +1,24 @@
-<script>
-	import Icon from '../components/Icon.svelte';
-	import TabBar from '../components/TabBar.svelte';
-	import Card from '../components/layout/Card.svelte';
-	import Content from '../components/Content.svelte';
-</script>
 <svelte:head>
-	<title>About</title>
+	<title>Sapper project template</title>
 </svelte:head>
 
-
-<TabBar/>
 <Content>
-<h1>About this site</h1>
-<Icon dark='true' name="home"></Icon>
-<p>This is the 'about' page. There's not much here.</p>
-<Card>
-</Card>
+	<div style="height: 80px;"><Logo/></div>
+<h1>Great success!</h1>
+<p class="mdc-typography--subtitle1">
+	<strong>Try editing this file <code>src/routes/index.svelte</code> to test live reloading.</strong>
+</p>
+<div class="mdi-set">
+    <span class="mdi-star"></span>
+    <span class="mdi-star"></span>
+    <span class="mdi-star"></span>
+    <span class="mdi-star"></span>
+    <span class="mdi-star-outline"></span>
+</div>
+
 </Content>
+
+<script>
+	import Logo from '../components/app/Logo.svelte';
+import Content from '../components/Content.svelte';
+</script>

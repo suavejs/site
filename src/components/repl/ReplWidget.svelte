@@ -72,10 +72,13 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: var(--mdc-theme-background);
+      background-color: var(--mdc-theme-surface);
+      color: var(--mdc-theme-primary);
       overflow: hidden;
       box-sizing: border-box;
       --pane-controls-h: 4.2rem;
+      border: 1px solid #1b2b34;
+      font-weight: bold;
     }
     .viewport {
       width: 100%;
@@ -91,7 +94,7 @@
     }
   </style>
   
-  <div class="repl-outer" bind:clientWidth={width} class:mobile>
+  <div class="repl-outer eleveation-z-2" bind:clientWidth={width} class:mobile>
     <div class="viewport" class:offset={checked}>
       {#if process.browser}
         <Repl
