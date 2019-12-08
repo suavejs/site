@@ -1,1 +1,1 @@
-export repl from './repl.js';
+export {repl} from './repl.js';

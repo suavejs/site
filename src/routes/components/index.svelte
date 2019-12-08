@@ -1,17 +1,15 @@
 <script>
   import ReplWidget from '../../components/repl/ReplWidget.svelte';
-  import Tree from '../../components/treeview';
   let repl;
 </script>
 
-<a href="components/buttons">Buttons</a>
 
-<!-- <div>
+<div>
 <section>
-  <Tree/>
+    <a href="components/buttons">Buttons</a>
 </section>  
 <ReplWidget bind:this={repl} style="background: var(--mdc-theme-background)"/>
-</div> -->
+</div>
 
 <style>
   section{

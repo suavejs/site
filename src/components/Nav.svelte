@@ -64,13 +64,13 @@
 					</a>
 
 					<a class="mdc-list-item {segment === "playground" ? `mdc-list-item--activated` : ``}" href='playground'>
-						<IconButton icon="code" iconOn="code" classes="mdc-list-item__graphic"/>
+						<IconButton icon="beach_access" iconOn="beach_access" classes="mdc-list-item__graphic"/>
 						{#if !mini}<span class="mdc-list-item__text">playground</span>{/if}
 					</a>
 
 					<a class="mdc-list-item {segment === "components" ? `mdc-list-item--activated` : ``}" href='components'>
-						<IconButton icon="beach_access" iconOn="beach_access" classes="mdc-list-item__graphic"/>
-						{#if !mini}<span class="mdc-list-item__text">playground</span>{/if}
+						<IconButton icon="code" iconOn="code" classes="mdc-list-item__graphic"/>
+						{#if !mini}<span class="mdc-list-item__text">Components</span>{/if}
 					</a>
 				</nav>
 		</div>

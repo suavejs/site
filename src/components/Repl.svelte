@@ -58,7 +58,7 @@
 			border: none;
 		}
 	
-		/* .container :global(section) > :global(*):first-child {
+		.container :global(section) > :global(*):first-child {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -70,7 +70,7 @@
 		.container :global(section) > :global(*):last-child {
 			width: 100%;
 			height: 100%;
-		} */
+		}
 		
 		#code{	
 			display: flex;
@@ -84,6 +84,7 @@
 			height: 100%;
 			width: 100%;
 			background: var(--mdc-theme-surface);
+			color: var(--mdc-theme-on-surface);
 		}
 		#output{
 			padding: 0;

@@ -10,14 +10,14 @@
 	.example {
 		width: 100%;
 	}
-
+/* 
 	.example :global(a) {
 		color: inherit;
 	}
 
 	.example > :global(p) {
 		margin: 4.4rem 2.4rem 2.4rem 0;
-	}
+	} */
 
 	.repl-container {
 		width: 100%;

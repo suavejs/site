@@ -14,7 +14,7 @@
         .examples {
             background: var(--mdc-theme-surface);
             color: var(--mdc-theme-on-surface);
-            overflow: hidden;
+
         }
         .example {
             border-radius: 4px;
@@ -36,39 +36,37 @@
     </svelte:head>
 <Content>
     <Hero
-        title="Suave"
-        tagline="Suave tools for Svelte devs"
+        title="SuaveJS"
+        tagline="Unique toolset for Svelte devs"
         outline="svelte-logo-outline.svg"
-        logotype="svelte-logotype.svg"
+        logotype="suave_logo.png"
     />
     
     <Blurb>
         <a class="feature" href="blog/write-less-code" slot="one">
-            <h2>Write less code</h2>
-            <p>Build boilerplate-free components using languages you already know — HTML, CSS and JavaScript</p>
+            <h2>Scaffold projects instantly</h2>
+            <p>Visual, interactive tools to outline your project and compile a working prototype</p>
     
             <span class="learn-more">learn more</span>
         </a>
     
         <a class="feature" href="blog/virtual-dom-is-pure-overhead" slot="two">
-            <h2>No virtual DOM</h2>
-            <p>Svelte compiles your code to tiny, framework-less vanilla JS — your app starts fast and stays fast</p>
+            <h2>Use a smarter REPL</h2>
+            <p>Upgrade the official Svelte REPL with the code analysis features of Monaco, the same editor powering VSCode</p>
     
             <span class="learn-more">learn more</span>
         </a>
     
         <a class="feature" href="blog/svelte-3-rethinking-reactivity" slot="three">
-            <h2>Truly reactive</h2>
-            <p>No more complex state management libraries — Svelte brings reactivity to JavaScript itself</p>
+            <h2>Web-based Svelte Management Studio</h2>
+            <p>Organize with a dashboard of your Svelte projects and resources, develop custom component libraries, and deploy demos, docs, and blogs.</p>
     
             <span class="learn-more">learn more</span>
         </a>
     
         <div class="description" slot="what">
-            <p>Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the <em>browser</em>, Svelte shifts that work into a <em>compile step</em> that happens when you build your app.</p>
-    
-            <p>Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.</p>
-    
+            <p>SuaveJS is a set of tools, utilities and components to enhance the Svelte development experience. Expanding on the official Svelte websites interactive tutorials & guides </p>
+            <p>by making the REPL editor more powerful and offering a fully cloud-based dashboard for your Svelte projects. </p>
             <p><a href="blog/svelte-3-rethinking-reactivity">Read the introductory blog post</a> to learn more.</p>
         </div>
     

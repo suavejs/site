@@ -84,13 +84,14 @@
 	<TopBar on:toggleMini={toggleMini} on:toggleDrawer={toggleDrawer}/>
 	<Nav {mini} show={drawer} {segment}/>
 	<main class="mdc-drawer-app-content mdc-top-app-bar--dense-fixed-adjust">
-		<div class="main-content" id="main-content">
-			<slot class="main-content mdc-body1" id="main-content"></slot>
+		<div class="mdc-body1 main-content" id="main-content">
+			<slot></slot>
 		</div>
 	</main>
 
 <style>
 	.main-content {
-		overflow-x: hidden;
+		overflow: hidden;
+		height: 100%;
 	}
 </style>

@@ -2,6 +2,7 @@
   import Repl from '../components/repl/ReplWidget.svelte';
   import {repl} from '../stores/repl.js'
   import {onMount} from 'svelte';
+  import Tree from '../components/treeview';
   
   let editor;
   export async function getTheme() {
@@ -26,6 +27,25 @@
    
   //   return () => monaco.editor.dispose()
   // })
-  </script>
-  
+</script>
+
+<div>
+  <section>
+      <Tree/>
+  </section>
   <Repl bind:this={editor}/>
+</div>
+
+<style>
+  section{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    padding-top: 16px;
+  }
+div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+</style>

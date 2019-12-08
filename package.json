@@ -8,7 +8,7 @@
     "sapper": "npm run copy-workers && sapper build --legacy",
     "update": "node scripts/update_template.js && node scripts/get-contributors.js",
     "build": "sapper build",
-    "export": "sapper export --legacy",
+    "export": "sapper export public",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",

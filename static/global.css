@@ -65,7 +65,9 @@
   font-weight: bold;
 }
 body {
+  display: flex;
   height: 100vh;
+  width: 100vw;
   overflow: hidden;
 	margin: 0;
 	font-family: var(--font-body), -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -146,21 +148,13 @@ pre, code {
 
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
-body {
-  display: flex;
-  height: 100vh;
-}
 
 .mdc-drawer-app-content {
   flex: auto;
-  overflow: auto;
+  overflow: hidden;
   position: relative;
 }
 
-.main-content {
-  overflow: hidden;
-  height: 100%;
-}
 
 .app-bar {
   position: absolute;

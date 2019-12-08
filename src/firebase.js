@@ -8,5 +8,7 @@ admin.initializeApp({
 });
 
 export const auth = admin.auth();
+export const googleProvider = new firebase.auth.GoogleAuthProvider();
+
 export const storage = admin.storage();
 export const db = admin.firestore();

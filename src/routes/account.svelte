@@ -6,7 +6,11 @@
 	<title>Account</title>
 </svelte:head>
 
-<TabBar/>
+<TabBar tabs={[
+	{label: 'Profile', icon: 'home'},
+	{label: 'Dashboard', icon: 'favorite'},
+	{label: 'Settings', icon: 'cog'}
+]}/>
 <Content>
 <h1 class="mdc-typography-headline1">Your account</h1>
 <Icon dark='true' name="home"></Icon>
